@@ -2,17 +2,17 @@
 
 $LOAD_PATH.push File.expand_path('../lib', __FILE__)
 # Maintain your gem's version:
-require 'desif_abrasf/version'
+require 'abrasf/desif/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = 'desif_abrasf'
-  s.version     = DesifAbrasf::VERSION
-  s.authors     = ['Marco Moura']
-  s.email       = ['marco.moura@gmail.com']
-  s.homepage    = 'github.com/marcomoura/desif_abrasf'
-  s.summary     = 'DesifAbrasf tables.'
-  s.description = 'Tables of DES-IF are: Service item'
+  s.name        = 'abrasf-desif'
+  s.version     = Abrasf::Desif::VERSION
+  s.authors     = 'Marco Moura'
+  s.email       = 'marco.moura@gmail.com'
+  s.homepage    = 'https://github.com/marcomoura/abrasf-desif'
+  s.summary     = 'Abrasf Desif.'
+  s.description = 'Tables of DES-IF'
   s.license     = 'MIT'
 
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE',

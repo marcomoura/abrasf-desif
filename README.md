@@ -3,7 +3,7 @@
 [![Code Climate](https://codeclimate.com/repos/570b9abdd165c835ca0053d5/badges/846b8f2a08ca8b537537/gpa.svg)](https://codeclimate.com/repos/570b9abdd165c835ca0053d5/feed)
 # DES-IF ABRASF
 
-Here are the tables of the conceptual model 2.3 of DES-IF from ABRASF
+Here are the tables of the conceptual DES-IF version 2.3 from ABRASF
 
 It contains the following models:
 
@@ -13,7 +13,7 @@ It contains the following models:
 ## Getting started
 
 ```ruby
-gem 'desif_abrasf'
+gem 'abrasf-desif'
 ```
 
 Run the bundle command to install it.
@@ -24,8 +24,8 @@ After you install add it to your Gemfile, you need to run the migration:
 rake db:migrate
 ```
 
-After the migration, you need to run the taks to load the seeds:
+After the migration, you need to run the following task to load the seeds:
 
 ```console
-rake desif_abrasf:db:seed
+rake abrasf:desif:db:seed
 ```

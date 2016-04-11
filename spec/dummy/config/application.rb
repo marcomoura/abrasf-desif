@@ -9,7 +9,7 @@ require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
 Bundler.require(*Rails.groups)
-require "desif_abrasf"
+require "abrasf_desif"
 
 module Dummy
   class Application < Rails::Application

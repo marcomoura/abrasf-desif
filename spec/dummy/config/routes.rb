@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
 
-  mount DesifAbrasf::Engine => "/desif_abrasf"
+  mount Abrasf::Desif::Engine => "/desif_abrasf"
 end

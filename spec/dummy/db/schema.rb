@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20160408160535) do
 
-  create_table "desif_abrasf_service_items", force: :cascade do |t|
+  create_table "abrasf_desif_service_items", force: :cascade do |t|
     t.string "description", null: false
   end
 

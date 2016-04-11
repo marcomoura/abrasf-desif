@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    desif_abrasf (0.0.1)
+    abrasf_desif (0.0.1)
       rails (~> 4.2.6)
 
 GEM
@@ -147,8 +147,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  abrasf_desif!
   codeclimate-test-reporter
-  desif_abrasf!
   rspec-rails
   rubocop
   shoulda-matchers
