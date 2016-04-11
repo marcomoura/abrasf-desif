@@ -1,5 +1,6 @@
 [![wercker status](https://app.wercker.com/status/ebd567df675e3729babbdbafc4651e3e/s/master "wercker status")](https://app.wercker.com/project/bykey/ebd567df675e3729babbdbafc4651e3e)
 [![Dependency Status](https://gemnasium.com/badges/github.com/marcomoura/desif_abrasf.svg)](https://gemnasium.com/github.com/marcomoura/desif_abrasf)
+[![Code Climate](https://codeclimate.com/repos/570b9abdd165c835ca0053d5/badges/846b8f2a08ca8b537537/gpa.svg)](https://codeclimate.com/repos/570b9abdd165c835ca0053d5/feed)
 # DES-IF ABRASF
 
 Here are the tables of the conceptual model 2.3 of DES-IF from ABRASF
