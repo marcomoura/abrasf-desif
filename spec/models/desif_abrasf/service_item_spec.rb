@@ -1,4 +1,4 @@
-require 'rails_helper'
+# frozen_string_literal: true
 
 module DesifAbrasf
   RSpec.describe ServiceItem, type: :model do

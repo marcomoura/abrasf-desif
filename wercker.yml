@@ -29,3 +29,6 @@ build:
       - script:
         name: rspec
         code: bundle exec rspec --format doc
+      - script:
+        name: Code Analyzer
+        code: bundle exec rubocop
