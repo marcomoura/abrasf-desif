@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    abrasf_desif (0.0.1)
+    abrasf-desif (0.0.1)
       rails (~> 4.2.6)
 
 GEM
@@ -42,9 +42,17 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    addressable (2.4.0)
     arel (6.0.3)
     ast (2.2.0)
     builder (3.2.2)
+    capybara (2.6.2)
+      addressable
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      xpath (~> 2.0)
     codeclimate-test-reporter (0.5.0)
       simplecov (>= 0.7.1, < 1.0.0)
     concurrent-ruby (1.0.1)
@@ -142,12 +150,15 @@ GEM
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     unicode-display_width (1.0.3)
+    xpath (2.0.0)
+      nokogiri (~> 1.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  abrasf_desif!
+  abrasf-desif!
+  capybara
   codeclimate-test-reporter
   rspec-rails
   rubocop

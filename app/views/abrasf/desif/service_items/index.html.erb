@@ -1,0 +1,10 @@
+<table>
+  <tbody>
+    <% @service_items.each do |service_item| %>
+      <tr>
+        <td><%= service_item.id %></td>
+        <td><%= service_item.description %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
