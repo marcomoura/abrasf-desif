@@ -1,0 +1,251 @@
+id,description,service_item_id
+010100001,"Análise e desenvolvimento de sistemas", 101
+010200001,"Programação", 102
+010300001,"Processamento de dados", 103
+010500001,"Licenciamento ou cessão de direito de uso de programas de computação",105
+010600001,"Assessoria e consultoria em informática",106
+010700001,"Suporte Técnico em Informática, inclusive instalação, configuração e manutenção de programas de computação e banco de dados",107
+071900001,"Acompanhamento e fiscalização da execução de obras de engenharia, arquitetura e urbanismo (não vinculado a liberação de crédito próprio)",719
+080200001,"Instrução, treinamento, avaliação de conhecimentos de quaisquer natureza",802
+100100001,"Agenciamento de câmbio",1001
+100100002,"Corretagem de câmbio",1001
+100100003,"Intermediação de câmbio",1001
+100100004,"Agenciamento de seguros",1001
+100100005,"Corretagem de seguros",1001
+100100006,"Intermediação de seguros",1001
+100100007,"Agenciamento de cartões de crédito",1001
+100100008,"Corretagem de cartões de crédito",1001
+100100009,"Intermediação de cartões de crédito",1001
+100100010,"Agenciamento de planos de previdência privada",1001
+100100011,"Corretagem de planos de previdência privada",1001
+100100012,"Intermediação de planos de previdência privada",1001
+100200001,"Agenciamento de títulos em geral",1002
+100200002,"Corretagem de títulos em geral",1002
+100200003,"Intermediação de títulos em geral",1002
+100200004,"Agenciamento de valores mobiliários",1002
+100200005,"Corretagem de valores mobiliários",1002
+100200006,"Intermediação de valores mobiliários",1002
+100200007,"Agenciamento de contratos quaisquer",1002
+100200008,"Corretagem de contratos quaisquer",1002
+100200009,"Intermediação de contratos quaisquer",1002
+100400001,"Agenciamento de contratos de arrendamento mercantil (leasing)",1004
+100400002,"Corretagem de contratos de arrendamento mercantil (leasing)",1004
+100400003,"Intermediação de contratos de arrendamento mercantil (leasing)",1004
+100400004,"Agenciamento de contratos de “faturização” (factoring)",1004
+100400005,"Corretagem de contratos de “faturização” (factoring)",1004
+100400006,"Intermediação de contratos de “faturização” (factoring)",1004
+100500001,"Agenciamento de bens móveis não abrangidos em outros itens / subitens.",1005
+100500002,"Corretagem de bens móveis não abrangidos em outros itens / subitens.",1005
+100500003,"Intermediação de bens móveis não abrangidos em outros itens / subitens.",1005
+100500004,"Agenciamento de bens imóveis não abrangidos em outros itens / subitens.",1005
+100500005,"Corretagem de bens imóveis não abrangidos em outros itens / subitens.",1005
+100500006,"Intermediação de bens imóveis não abrangidos em outros itens / subitens.",1005
+100500007,"Agenciamento no âmbito de Bolsas de Mercadorias e Futuros.",1005
+100500008,"Corretagem no âmbito de Bolsas de Mercadorias e Futuros.",1005
+100500009,"Intermediação no âmbito de Bolsas de Mercadorias e Futuros.",1005
+100900001,"Representação de qualquer natureza, inclusive comercial",1009
+110100001,"Guarda e estacionamento de veículos terrestres automotores, de aeronaves e de embarcações",1101
+130300001,"Fotografia e cinematografia, inclusive revelação, ampliação, cópia, reprodução, trucagem",1303
+130400001,"Serviços de reprografia",1304
+130400002,"Serviços de microfilmagem",1304
+130400003,"Serviços de digitalização",1304
+150100001,"Administração de fundos quaisquer",1501
+150100002,"Administração de consórcio",1501
+150100003,"Administração de cartão de crédito ou débito e congêneres",1501
+150100004,"Administração de carteira de clientes",1501
+150100005,"Administração de cheques pré-datados e congêneres",1501
+150200001,"Abertura de conta-corrente no país",1502
+150200002,"Abertura de contas de investimentos e aplicação no país",1502
+150200003,"Abertura de conta de poupança no país",1502
+150200004,"Abertura de contas em geral no país não abrangidas em outros itens/subitens.",1502
+150200005,"Abertura de conta-corrente no exterior",1502
+150200006,"Abertura de contas de investimentos e aplicação no exterior",1502
+150200007,"Abertura de conta de poupança no exterior",1502
+150200008,"Abertura de contas em geral no exterior não abrangidas em outros itens / subitens.",1502
+150200009,"Manutenção de conta-corrente no país",1502
+150200010,"Manutenção de contas de investimentos e aplicação no país",1502
+150200011,"Manutenção de conta de poupança no país",1502
+150200012,"Manutenção de contas em geral no país não abrangidas em outros itens / subitens.",1502
+150200013,"Manutenção de conta-corrente no exterior",1502
+150200014,"Manutenção de contas de investimentos e aplicação no exterior",1502
+150200015,"Manutenção de conta de poupança no exterior",1502
+150200016,"Manutenção de contas em geral no exterior não abrangidas em outros itens / subitens.",1502
+150300001,"Locação de cofres particulares",1503
+150300002,"Manutenção de cofres particulares",1503
+150300003,"Locação de terminais eletrônicos",1503
+150300004,"Manutenção de terminais eletrônicos",1503
+150300005,"Locação de terminais de atendimento",1503
+150300006,"Manutenção de terminais de atendimento",1503
+150300007,"Locação de bens e equipamentos em geral",1503
+150300008,"Manutenção de bens e equipamentos em geral",1503
+150400001,"Fornecimento e emissão de atestado de idoneidade",1504
+150400002,"Fornecimento e emissão de atestado de capacidade financeira e congêneres",1504
+150400003,"Fornecimento e emissão de atestados em geral não abrangidas em outros itens/subitens.",1504
+150500001,"Cadastro, elaboração e renovação de ficha cadastral e congêneres",1505
+150500002,"Inclusão no cadastro de emitentes de cheques sem fundos-CCF",1505
+150500003,"Exclusão do cadastro de emitentes de cheques sem fundos-CCF",1505
+150500004,"Inclusão no cadastro de outros bancos cadastrais quaisquer",1505
+150500005,"Exclusão do cadastro de outros bancos cadastrais quaisquer",1505
+150600001,"Emissão, reemissão e fornecimento de avisos.",1506
+150600002,"Emissão, reemissão e fornecimento de comprovantes",1506
+150600003,"Emissão, reemissão e fornecimento de documentos em geral",1506
+150600004,"Abono de firmas",1506
+150600005,"Coleta de documentos, bens e valores",1506
+150600006,"Entrega de documentos, bens e valores",1506
+150600007,"Comunicação com outra agência",1506
+150600008,"Comunicação com a administração central",1506
+150600009,"Licenciamento eletrônico de veículos",1506
+150600010,"Transferência de veículos",1506
+150600011,"Agenciamento fiduciário",1506
+150600012,"Agenciamento depositário",1506
+150600013,"Devolução de bens em custódia",1506
+150700001,"Acesso, movimentação, atendimento e consulta a contas em geral por telefone",1507
+150700002,"Acesso, movimentação, atendimento e consulta a contas em geral por fac-símile",1507
+150700003,"Acesso, movimentação, atendimento e consulta a contas em geral via internet",1507
+150700004,"Acesso, movimentação, atendimento e consulta a contas por telex",1507
+150700005,"Acesso, movimentação, atendimento e consulta a contas em geral, por qualquer meio ou processo não abrangidas em outros itens/subitens.",1507
+150700006,"Acesso a terminais de atendimento, inclusive 24 horas",1507
+150700007,"Acesso a outro banco",1507
+150700008,"Acesso à rede compartilhada",1507
+150700009,"Fornecimento de saldo, extrato e demais informações relativas a contas em geral, por qualquer meio ou processo.",1507
+150700010,"Pacote/cesta de serviços bancários",1507
+150800001,"Emissão e reemissão de contrato de crédito",1508
+150800002,"Alteração de contrato de crédito",1508
+150800003,"Cessão de contrato de crédito",1508
+150800004,"Substituição de contrato de crédito",1508
+150800005,"Cancelamento de contrato de crédito",1508
+150800006,"Registro de contrato de crédito",1508
+150800007,"Estudo, análise e avaliação de operações de crédito",1508
+150800008,"Emissão de aval, fiança, anuência e congêneres",1508
+150800009,"Concessão de aval, fiança, anuência e congêneres",1508
+150800010,"Alteração de aval, fiança, anuência e congêneres",1508
+150800011,"Contratação de aval, fiança, anuência e congêneres",1508
+150800012,"Serviços relativos a abertura de crédito não abrangidas em outros itens/subitens, para quaisquer fins.",1508
+150900001,"Arrendamento mercantil (leasing) de quaisquer bens, inclusive cessão de direitos e obrigações", 1509
+150900002,"Substituição de garantia", 1509
+150900003,"Alteração de contrato de leasing", 1509
+150900004,"Cancelamento de contrato de leasing", 1509
+150900005,"Registro de contrato de leasing", 1509
+150900006,"Demais serviços relacionados ao arrendamento mercantil (leasing)", 1509
+151000001,"Serviços relacionados a cobranças e recebimentos em geral de títulos quaisquer efetuados por qualquer meio", 1510
+151000002,"Serviços relacionados a cobranças e recebimentos de contas em geral efetuados por qualquer meio", 1510
+151000003,"Serviços relacionados a cobranças e recebimentos de carnês em geral efetuados por qualquer meio", 1510
+151000004,"Serviços relacionados a cobranças e recebimentos de câmbio em geral efetuados por qualquer meio", 1510
+151000005,"Serviços relacionados a recebimentos de tributos em geral efetuados por qualquer meio", 1510
+151000006,"Serviços relacionados a cobranças e recebimentos por conta de terceiros em geral efetuados por qualquer meio", 1510
+151000007,"Serviços relacionados a pagamentos em geral de títulos quaisquer efetuados por qualquer meio", 1510
+151000008,"Serviços relacionados a pagamentos de contas em geral efetuados por qualquer meio", 1510
+151000009,"Serviços relacionados a pagamentos de carnês em geral efetuados por qualquer meio", 1510
+151000010,"Serviços relacionados a pagamentos de câmbio em geral efetuados por qualquer meio", 1510
+151000011,"Serviços relacionados a pagamentos de tributos em geral efetuados por qualquer meio", 1510
+151000012,"Serviços relacionados a pagamentos por conta de terceiros em geral efetuados por qualquer meio", 1510
+151000013,"Fornecimento de posição de cobrança", 1510
+151000014,"Fornecimento de posição de recebimento", 1510
+151000015,"Fornecimento de posição de pagamento", 1510
+151000016,"Emissão de carnês", 1510
+151000017,"Emissão de fichas de compensação", 1510
+151000018,"Emissão de impressos e documentos em geral", 1510
+151100001,"Devolução de títulos", 1511
+151100002,"Protesto de títulos", 1511
+151100003,"Sustação de protesto", 1511
+151100004,"Manutenção de títulos", 1511
+151100005,"Reapresentação de títulos", 1511
+151100006,"Demais serviços relacionados a títulos em cobrança", 1511
+151200001,"Custódia em geral, inclusive de títulos e valores mobiliários", 1512
+151300001,"Edição de contrato de câmbio", 1513
+151300002,"Alteração de contrato de câmbio", 1513
+151300003,"Prorrogação de contrato de câmbio", 1513
+151300004,"Cancelamento de contrato de câmbio", 1513
+151300005,"Baixa de contrato de câmbio", 1513
+151300006,"Emissão de registro de exportação", 1513
+151300007,"Emissão de registro de crédito", 1513
+151300008,"Cobrança no exterior", 1513
+151300009,"Depósito no exterior", 1513
+151300010,"Emissão e fornecimento de cheques de viagem", 1513
+151300011,"Cancelamento de cheques de viagem", 1513
+151300012,"Fornecimento de carta de crédito de importação", 1513
+151300013,"Transferência de carta de crédito de importação", 1513
+151300014,"Cancelamento de carta de crédito de importação", 1513
+151300015,"Demais serviços relativos à carta de crédito de importação", 1513
+151300016,"Fornecimento de carta de crédito de exportação", 1513
+151300017,"Transferência de carta de crédito de exportação", 1513
+151300018,"Cancelamento de carta de crédito de exportação", 1513
+151300019,"Demais serviços relativos à carta de crédito de exportação", 1513
+151300020,"Serviços relativos a garantias recebidas", 1513
+151300021,"Envio de mensagens em geral relacionadas a operações de câmbio", 1513
+151300022,"Recebimento de mensagens em geral relacionadas a operações de câmbio", 1513
+151300023,"Demais serviços relacionados à operação de câmbio", 1513
+151400001,"Fornecimento, emissão e reemissão de cartão magnético", 1514
+151400002,"Renovação de cartão magnético", 1514
+151400003,"Manutenção de cartão magnético", 1514
+151400004,"Fornecimento, emissão e reemissão de cartão de crédito", 1514
+151400005,"Renovação de cartão de crédito", 1514
+151400006,"Manutenção de cartão de crédito", 1514
+151400007,"Fornecimento, emissão e reemissão de cartão de débito", 1514
+151400008,"Renovação de cartão de débito", 1514
+151400009,"Manutenção de cartão de débito", 1514
+151400010,"Fornecimento, emissão e reemissão de cartão salário", 1514
+151400011,"Renovação de cartão salário", 1514
+151400012,"Manutenção de cartão salário", 1514
+151400013,"Fornecimento, emissão e reemissão de cartões congêneres", 1514
+151400014,"Renovação de cartões congêneres", 1514
+151400015,"Manutenção de cartões congêneres", 1514
+151500001,"Compensação de cheques", 1515
+151500002,"Compensação de títulos quaisquer", 1515
+151500003,"Serviços relacionados a depósito, inclusive depósito identificado", 1515
+151500004,"Serviços relacionados a saque de contas quaisquer, por qualquer meio ou processo.", 1515
+151600001,"Emissão/ reemissão de ordens de pagamento, ordens de crédito e similares, por qualquer meio ou processo", 1516
+151600002,"Liquidação de ordens de pagamento, ordens de crédito e similares, por qualquer meio ou processo", 1516
+151600003,"Alteração de ordens de pagamento, ordens de crédito e similares, por qualquer meio ou processo", 1516
+151600004,"Cancelamento de ordens de pagamento, ordens de crédito e similares, por qualquer meio ou processo", 1516
+151600005,"Baixa de ordens de pagamento, ordens de crédito e similares, por qualquer meio ou processo", 1516
+151600006,"Serviços relacionados à transferência de valores, dados, fundos, pagamentos e similares, inclusive entre contas em geral", 1516
+151700001,"Emissão de cheques quaisquer, avulso ou por talão", 1517
+151700002,"Fornecimento de cheques quaisquer, avulso ou por talão", 1517
+151700003,"Devolução de cheques quaisquer, avulso ou por talão", 1517
+151700004,"Sustação de cheques quaisquer, avulso ou por talão", 1517
+151700005,"Cancelamento de cheques quaisquer, avulso ou por talão", 1517
+151700006,"Oposição de cheques quaisquer, avulso ou por talão", 1517
+151800001,"Avaliação de imóvel", 1518
+151800002,"Avaliação de obra",1518
+151800003,"Vistoria de imóvel",1518
+151800004,"Vistoria de obra",1518
+151800005,"Análise técnica relacionada ao crédito imobiliário",1518
+151800006,"Análise jurídica relacionada ao crédito imobiliário",1518
+151800007,"Emissão/reemissão de contrato de crédito imobiliário",1518
+151800008,"Alteração de contrato de crédito imobiliário",1518
+151800009,"Transferência de contrato de crédito imobiliário",1518
+151800010,"Renegociação de contrato de crédito imobiliário",1518
+151800011,"Emissão/reemissão de termo de quitação",1518
+151800012,"Outros serviços relacionados ao crédito imobiliário",1518
+170100001,"Assessoria de qualquer natureza",1701
+170100002,"Consultoria de qualquer natureza",1701
+170100003,"Análise, exame, fornecimento de dados e informações de qualquer natureza",1701
+170200001,"Serviços de expediente",1702
+170200002,"Serviços de apoio e infra-estrutura administrativa e congêneres",1702
+170300001,"Serviços de planejamento, coordenação, programação ou organização técnica",1703
+170300002,"Serviços de planejamento, coordenação, programação ou organização financeira",1703
+170300003,"Serviços de planejamento, coordenação, programação ou organização administrativa",1703
+170500001,"Fornecimento de mão-de-obra, em caráter temporário ou permanente",1705
+170900001,"Serviços de perícias",1709
+170900002,"Serviços de laudos",1709
+170900003,"Serviços de exames técnicos",1709
+170900004,"Serviços de análises técnicas",1709
+171200001,"Administração em geral de bens e negócios de terceiros",1712
+171300001,"Leilão e congêneres",1713
+171600001,"Auditoria",1716
+171900001,"Contabilidade, inclusive serviços técnicos e auxiliares",1719
+172000001,"Consultoria econômica",1720
+172000002,"Assessoria econômica",1720
+172000003,"Consultoria financeira",1720
+172000004,"Assessoria financeira",1720
+180100001,"Serviços de regulação de sinistros vinculados a contratos de seguros",1801
+180100002,"Serviços de inspeção e avaliação de riscos para cobertura de contratos de seguros",1801
+180100003,"Serviços de prevenção e gerência de riscos seguráveis e congêneres.",1801
+190100001,"Serviços de distribuição de bilhetes e demais produtos de loteria, bingos, cartões, pules ou cupons de apostas, sorteios, prêmios, inclusive os decorrentes de títulos de capitalização e congêneres",1901
+190100002,"Serviços de vendas de bilhetes e demais produtos de loteria, bingos, cartões, pules ou cupons de apostas, sorteios, prêmios, inclusive os decorrentes de títulos de capitalização e congêneres",1901
+260100001,"Serviços de coleta de bens ou valores",2601
+260100002,"Serviços de remessa de bens ou valores",2601
+260100003,"Serviços de entrega de bens ou valores",2601
+260100004,"Serviços de courrier e congêneres",2601
+280100001,"Serviços de avaliação de bens e serviços de qualquer natureza",2801
