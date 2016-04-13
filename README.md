@@ -7,7 +7,8 @@ Here are the tables of the conceptual DES-IF version 2.3 from ABRASF
 
 It contains the following models:
 
-* Service Item - list of services from Complementary law 116/2003
+* Service Item - List of services from Complementary law 116/2003
+* Tax Codes    - List of tax codes of DES-IF
 
 
 ## Getting started
