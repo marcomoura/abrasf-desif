@@ -10,3 +10,10 @@ pt:
           code: Código
           description: Descrição
           service_item: Subitem da lista de serviços
+      cities:
+        index:
+          title: Tabela de Municípios do IBGE
+          code: Código IBGE
+          name: Nome do município
+          federative_unit: Estado (UF)
+

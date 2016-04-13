@@ -10,3 +10,9 @@ en:
           code: Code
           description: Description
           service_item: Subitem Service Item
+      cities:
+        index:
+          title: City Table
+          code: Code
+          name: Name
+          federative_unit: State

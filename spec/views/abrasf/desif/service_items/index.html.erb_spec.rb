@@ -3,7 +3,6 @@
 RSpec.describe 'abrasf/desif/service_items/index', type: :view do
   before do
     assign :service_items, [Abrasf::Desif::ServiceItem.new]
-    stub_template 'abrasf/desif/tax_code/_service_item.html.erb': 'fake-partial'
 
     render
   end

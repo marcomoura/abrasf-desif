@@ -1,0 +1,15 @@
+<h1><%= t '.title' %></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th><%= t '.code' %></th>
+      <th><%= t '.name' %></th>
+      <th><%= t '.federative_unit' %></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <%= render partial: @cities %>
+  </tbody>
+</table>
