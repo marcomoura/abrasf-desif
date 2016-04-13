@@ -4,3 +4,9 @@ pt:
       service_items:
         index:
           title: Lista de Serviços anexa à Lei Complementar n.º 116/03
+      tax_codes:
+        index:
+          title: Códigos de Tributação da DES-IF
+          code: Código
+          description: Descrição
+          service_item: Subitem da lista de serviços

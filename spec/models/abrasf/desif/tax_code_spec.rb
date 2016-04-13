@@ -2,8 +2,8 @@
 
 module Abrasf
   module Desif
-    RSpec.describe ServiceItem, type: :model do
-      it { is_expected.to have_many(:tax_codes) }
+    RSpec.describe TaxCode, type: :model do
+      it { is_expected.to belong_to(:service_item) }
 
       it { is_expected.to validate_presence_of(:id) }
       it { is_expected.to validate_presence_of(:description) }

@@ -11,10 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160408160535) do
+ActiveRecord::Schema.define(version: 20160412200143) do
 
   create_table "abrasf_desif_service_items", force: :cascade do |t|
     t.string "description", null: false
+  end
+
+  create_table "abrasf_desif_tax_codes", force: :cascade do |t|
+    t.string  "description",     limit: 100
+    t.integer "service_item_id"
   end
 
 end

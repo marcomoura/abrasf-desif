@@ -2,16 +2,13 @@
 
 RSpec.describe 'abrasf/desif/service_items/index', type: :view do
   before do
-    assign :service_items, [
-      Abrasf::Desif::ServiceItem.create!(id: 101, description: 'hello'),
-      Abrasf::Desif::ServiceItem.create!(id: 202, description: 'world')
-    ]
+    assign :service_items, [Abrasf::Desif::ServiceItem.new]
+    stub_template 'abrasf/desif/tax_code/_service_item.html.erb': 'fake-partial'
 
     render
   end
-  let(:result) { '101 hello 202 world' }
+  let(:result) { 'Service Item' }
 
-  it do
-    expect(rendered).to have_content result
-  end
+  it { expect(rendered).to have_content result }
+  it { expect(view).to render_template partial: '_service_item' }
 end

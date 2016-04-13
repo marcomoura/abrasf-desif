@@ -8,7 +8,5 @@ RSpec.describe 'Service Item', type: :feature do
   end
   let(:result) { '101 hello 202 world' }
 
-  it do
-    expect(page).to have_content result
-  end
+  it { expect(page).to have_content result }
 end

@@ -1,0 +1,12 @@
+en:
+  abrasf:
+    desif:
+      service_items:
+        index:
+          title: Service Item
+      tax_codes:
+        index:
+          title: Tax Codes
+          code: Code
+          description: Description
+          service_item: Subitem Service Item

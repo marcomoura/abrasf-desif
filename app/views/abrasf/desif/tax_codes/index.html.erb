@@ -1,0 +1,15 @@
+<h2><%= t '.title' %>
+
+<table>
+  <thead>
+    <tr>
+      <th><%= t '.code' %></th>
+      <th><%= t '.description' %></th>
+      <th><%= t '.service_item' %></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <%= render partial: @tax_codes %>
+  </tbody>
+</table>
