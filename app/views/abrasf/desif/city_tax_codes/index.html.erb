@@ -1,0 +1,25 @@
+<p id='notice'><%= notice %></p>
+
+<h1><%= t '.title'%></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th><%= t '.city'%></th>
+      <th><%= t '.city_tax_code'%></th>
+      <th><%= t '.tax_code'%></th>
+      <th><%= t '.aliquot'%></th>
+      <th><%= t '.since'%></th>
+      <th><%= t '.expiry'%></th>
+      <th colspan="2"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <%= render partial: @city_tax_codes %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to t('.new'), new_city_tax_code_path %>

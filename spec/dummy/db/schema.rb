@@ -18,6 +18,22 @@ ActiveRecord::Schema.define(version: 20160413201725) do
     t.string "federative_unit", limit: 2
   end
 
+  create_table "abrasf_desif_city_tax_codes", force: :cascade do |t|
+    t.integer  "city_id",                                                        null: false
+    t.integer  "tax_code_id",                                                    null: false
+    t.string   "city_tax_code", limit: 20,                                       null: false
+    t.decimal  "aliquot",                  precision: 1, scale: 2, default: 5.0, null: false
+    t.date     "since",                                                          null: false
+    t.date     "expiry"
+    t.datetime "created_at",                                                     null: false
+    t.datetime "updated_at",                                                     null: false
+  end
+
+  add_index "abrasf_desif_city_tax_codes", ["city_id", "city_tax_code"], name: "index_abrasf_desif_city_tax_codes_on_city_id_and_city_tax_code", unique: true
+  add_index "abrasf_desif_city_tax_codes", ["city_id"], name: "index_abrasf_desif_city_tax_codes_on_city_id"
+  add_index "abrasf_desif_city_tax_codes", ["city_tax_code"], name: "index_abrasf_desif_city_tax_codes_on_city_tax_code"
+  add_index "abrasf_desif_city_tax_codes", ["tax_code_id"], name: "index_abrasf_desif_city_tax_codes_on_tax_code_id"
+
   create_table "abrasf_desif_service_items", force: :cascade do |t|
     t.string "description", null: false
   end

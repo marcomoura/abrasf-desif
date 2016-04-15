@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>City:</strong>
+  <%= @city_tax_code.city %>
+</p>
+
+<p>
+  <strong>City tax code:</strong>
+  <%= @city_tax_code.city_tax_code %>
+</p>
+
+<p>
+  <strong>Tax code:</strong>
+  <%= @city_tax_code.tax_code %>
+</p>
+
+<p>
+  <strong>Aliquot:</strong>
+  <%= @city_tax_code.aliquot %>
+</p>
+
+<p>
+  <strong>Since:</strong>
+  <%= @city_tax_code.since %>
+</p>
+
+<p>
+  <strong>Expiry:</strong>
+  <%= @city_tax_code.expiry %>
+</p>
+
+<%= link_to 'Edit', edit_city_tax_code_path(@city_tax_code) %> |
+<%= link_to 'Back', city_tax_codes_path %>

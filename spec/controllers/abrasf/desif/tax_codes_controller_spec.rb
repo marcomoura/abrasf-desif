@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-#
+
 module Abrasf
   module Desif
     RSpec.describe TaxCodesController, type: :controller do

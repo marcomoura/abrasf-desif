@@ -7,9 +7,10 @@ Here are the tables of the conceptual DES-IF version 2.3 from ABRASF
 
 It contains the following models:
 
-* Service Item - List of services from Complementary law 116/2003
-* Tax Codes    - List of tax codes from DES-IF
-* Cities       - List of Cities from IBGE
+* Service Item   - List of services from Complementary law 116/2003
+* Tax Codes      - List of tax codes from DES-IF
+* Cities         - List of Cities from IBGE
+* City Tax Codes - Tax codes from City (without seed)
 
 
 ## Getting started

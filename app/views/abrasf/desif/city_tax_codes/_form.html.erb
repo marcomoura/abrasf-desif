@@ -1,0 +1,41 @@
+<%= form_for(@city_tax_code) do |f| %>
+  <% if @city_tax_code.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@city_tax_code.errors.count, "error") %> <%= t '.error' %> </h2>
+
+      <ul>
+      <% @city_tax_code.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :city_id %><br>
+    <%= f.number_field :city_id %>
+  </div>
+  <div class="field">
+    <%= f.label :city_tax_code %><br>
+    <%= f.text_field :city_tax_code %>
+  </div>
+  <div class="field">
+    <%= f.label :tax_code_id %><br>
+    <%= f.number_field :tax_code_id %>
+  </div>
+  <div class="field">
+    <%= f.label :aliquot %><br>
+    <%= f.number_field :aliquot, value: 5, min: 2, max: 5, step: 0.5 %>
+  </div>
+  <div class="field">
+    <%= f.label :since %><br>
+    <%= f.date_field :since %>
+  </div>
+  <div class="field">
+    <%= f.label :expiry %><br>
+    <%= f.date_field :expiry %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

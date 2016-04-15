@@ -1,4 +1,17 @@
 en:
+  date:
+    formats:
+      year_month: '%Y/%m'
+
+  activerecord:
+    models:
+      abrasf/desif/city_tax_code: City Tax Code
+    attributes:
+      abrasf/desif/city_tax_code:
+        city_tax_code: City tax code
+        tax_code: Tax code
+        city: City
+
   abrasf:
     desif:
       service_items:
@@ -16,3 +29,23 @@ en:
           code: Code
           name: Name
           federative_unit: State
+      city_tax_codes:
+        index:
+          title: Listing City Tax Codes
+          city: City IBGE
+          city_tax_code: City tax code
+          tax_code: Tax code
+          aliquot: Aliquot
+          since: Since
+          expiry: Expiry
+          edit: Edit
+          destroy: Destroy
+          new: New City tax code
+        create:
+          created: City tax code was successfully created.
+        update:
+          updated: City tax code was successfully updated.
+        destroy:
+          destroyed: City tax code was successfully destroyed.
+        form:
+          error: 'prohibited this city_tax_code from being saved:'
