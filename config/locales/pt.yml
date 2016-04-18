@@ -8,9 +8,11 @@ pt:
       abrasf/desif/city_tax_code: Código de Tributação do Município
     attributes:
       abrasf/desif/city_tax_code:
-        city_tax_code: Código de Tributação do Município
-        tax_code: Código de Tributação da DES-IF
         city: Código IBGE do Município
+        tax_code: Código de Tributação da DES-IF
+        abrasf_desif_city: Código IBGE do Município
+        abrasf_desif_tax_code: Código de Tributação da DES-IF
+        city_tax_code: Código de Tributação do Município
         aliquot: Alíquota
         since: Mês e ano de início da vigência do código de tributação do município
         expiry: Mês e ano de fim da vigência do código de tributação do município

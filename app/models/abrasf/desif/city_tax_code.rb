@@ -3,14 +3,15 @@
 module Abrasf
   module Desif
     class CityTaxCode < ActiveRecord::Base
-      belongs_to :tax_code
-      belongs_to :city
+      belongs_to :tax_code, foreign_key: :abrasf_desif_tax_code_id
+      belongs_to :city, foreign_key: :abrasf_desif_city_id
 
-      validates_presence_of :tax_code, :city
+      validates_presence_of :abrasf_desif_tax_code_id, :abrasf_desif_city_id
+
       validates :city_tax_code,
                 presence: true,
                 length: { maximum: 20, allow_blank: true },
-                uniqueness: { scope: :city_id,
+                uniqueness: { scope: :abrasf_desif_city_id,
                               case_sensitive: false,
                               allow_blank: true }
       validates :aliquot,

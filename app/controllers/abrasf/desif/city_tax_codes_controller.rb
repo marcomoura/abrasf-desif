@@ -62,6 +62,8 @@ module Abrasf
         params.require(:city_tax_code)
               .permit :city_id, :city,
                       :tax_code, :tax_code_id,
+                      :abrasf_desif_city_id, :abrasf_desif_city,
+                      :abrasf_desif_tax_code, :abrasf_desif_tax_code_id,
                       :city_tax_code, :aliquot, :since, :expiry
       end
     end

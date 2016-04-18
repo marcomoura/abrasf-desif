@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160413201725) do
+ActiveRecord::Schema.define(version: 20160418190116) do
 
   create_table "abrasf_desif_cities", force: :cascade do |t|
     t.string "name",            limit: 50
@@ -19,28 +19,28 @@ ActiveRecord::Schema.define(version: 20160413201725) do
   end
 
   create_table "abrasf_desif_city_tax_codes", force: :cascade do |t|
-    t.integer  "city_id",                                                        null: false
-    t.integer  "tax_code_id",                                                    null: false
-    t.string   "city_tax_code", limit: 20,                                       null: false
-    t.decimal  "aliquot",                  precision: 1, scale: 2, default: 5.0, null: false
-    t.date     "since",                                                          null: false
+    t.integer  "abrasf_desif_city_id",                                                      null: false
+    t.integer  "abrasf_desif_tax_code_id",                                                  null: false
+    t.string   "city_tax_code",            limit: 20,                                       null: false
+    t.decimal  "aliquot",                             precision: 4, scale: 2, default: 5.0, null: false
+    t.date     "since",                                                                     null: false
     t.date     "expiry"
-    t.datetime "created_at",                                                     null: false
-    t.datetime "updated_at",                                                     null: false
+    t.datetime "created_at",                                                                null: false
+    t.datetime "updated_at",                                                                null: false
   end
 
-  add_index "abrasf_desif_city_tax_codes", ["city_id", "city_tax_code"], name: "index_abrasf_desif_city_tax_codes_on_city_id_and_city_tax_code", unique: true
-  add_index "abrasf_desif_city_tax_codes", ["city_id"], name: "index_abrasf_desif_city_tax_codes_on_city_id"
+  add_index "abrasf_desif_city_tax_codes", ["abrasf_desif_city_id", "city_tax_code"], name: "abrasf_desif_city_tax_codes_city_id_and_city_tax_code", unique: true
+  add_index "abrasf_desif_city_tax_codes", ["abrasf_desif_city_id"], name: "index_abrasf_desif_city_tax_codes_on_abrasf_desif_city_id"
+  add_index "abrasf_desif_city_tax_codes", ["abrasf_desif_tax_code_id"], name: "index_abrasf_desif_city_tax_codes_on_abrasf_desif_tax_code_id"
   add_index "abrasf_desif_city_tax_codes", ["city_tax_code"], name: "index_abrasf_desif_city_tax_codes_on_city_tax_code"
-  add_index "abrasf_desif_city_tax_codes", ["tax_code_id"], name: "index_abrasf_desif_city_tax_codes_on_tax_code_id"
 
   create_table "abrasf_desif_service_items", force: :cascade do |t|
     t.string "description", null: false
   end
 
   create_table "abrasf_desif_tax_codes", force: :cascade do |t|
-    t.string  "description",     limit: 200
-    t.integer "service_item_id"
+    t.string  "description",                  limit: 200
+    t.integer "abrasf_desif_service_item_id"
   end
 
 end

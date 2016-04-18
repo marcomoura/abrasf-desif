@@ -3,10 +3,8 @@
 module Abrasf
   module Desif
     RSpec.describe ServiceItem, type: :model do
-      it { is_expected.to have_many(:tax_codes) }
-
-      it { is_expected.to validate_presence_of(:id) }
-      it { is_expected.to validate_presence_of(:description) }
+      it { is_expected.to validate_presence_of :id }
+      it { is_expected.to validate_presence_of :description }
     end
   end
 end

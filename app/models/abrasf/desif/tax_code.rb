@@ -3,9 +3,9 @@
 module Abrasf
   module Desif
     class TaxCode < ActiveRecord::Base
-      belongs_to :service_item
+      belongs_to :service_item, foreign_key: :abrasf_desif_service_item_id
 
-      validates_presence_of :id
+      validates_presence_of :id, :abrasf_desif_service_item_id
       validates :description,
                 presence: true,
                 length: { maximum: 200, allow_blank: true }

@@ -11,6 +11,8 @@ en:
         city_tax_code: City tax code
         tax_code: Tax code
         city: City
+        abrasf_desif_tax_code_id: Tax code
+        abrasf_desif_city_id: City
 
   abrasf:
     desif:

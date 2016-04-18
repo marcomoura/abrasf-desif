@@ -9,8 +9,8 @@ RSpec.describe 'City Tax codes', type: :feature do
 
     let(:result) do
       'Listing City Tax Codes '\
-        'City IBGE City tax code Tax code Aliquot Since Expiry '\
-        '1200013 A1234 10200001 5.0 2016/04'\
+        'City IBGE Tax code City tax code Aliquot Since Expiry '\
+        '1200013 10200001 A1234 5.0 2016/04'\
     end
 
     it { expect(page).to have_content result }
@@ -27,6 +27,7 @@ RSpec.describe 'City Tax codes', type: :feature do
       fill_in 'City tax code', with: '1234'
       fill_in 'Tax code', with: create(:tax_code).id
       fill_in 'City', with: create(:city).id
+      fill_in 'Since', with: Date.today
 
       click_button 'Create'
     end
