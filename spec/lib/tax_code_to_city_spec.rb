@@ -3,10 +3,18 @@
 module Abrasf
   module Desif
     RSpec.describe TaxCodeToCity do
+      let(:city) { create :city }
+      before { create :tax_code }
+
+      context '#create' do
+        specify do
+          expect { described_class.create city_id: city.id }
+            .to change { CityTaxCode.count }.by 1
+        end
+      end
+
       context '.create' do
         subject { described_class.new city.id, Date.today, TaxCode }
-        let(:city) { create :city }
-        before { create :tax_code }
 
         specify do
           expect { subject.create }.to change { CityTaxCode.count }.by 1
