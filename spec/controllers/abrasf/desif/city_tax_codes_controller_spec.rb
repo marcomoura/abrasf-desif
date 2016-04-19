@@ -6,10 +6,8 @@ module Abrasf
       routes { Engine.routes }
 
       let(:valid_attributes) do
-        { abrasf_desif_tax_code_id: create(:tax_code).id,
-          abrasf_desif_city_id: create(:city).id,
-          city_tax_code: 'A23456',
-          since: Date.today }
+        { abrasf_desif_tax_code_id: create(:tax_code).id, since: Date.today,
+          abrasf_desif_city_id: create(:city).id, city_tax_code: 'A23456' }
       end
 
       let(:invalid_attributes) { valid_attributes.merge city_tax_code: nil }

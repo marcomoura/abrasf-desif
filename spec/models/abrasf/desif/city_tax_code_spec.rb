@@ -16,15 +16,6 @@ module Abrasf
       end
 
       it { is_expected.to validate_length_of(:city_tax_code).is_at_most 20 }
-
-      context do
-        before { create :city_tax_code }
-
-        it do
-          is_expected.to validate_uniqueness_of(:city_tax_code)
-            .scoped_to(:abrasf_desif_city_id).case_insensitive
-        end
-      end
     end
   end
 end

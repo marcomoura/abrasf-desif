@@ -9,9 +9,6 @@ class CreateAbrasfDesifCityTaxCode < ActiveRecord::Migration
       t.date :expiry
 
       t.timestamps null: false
-
-      t.index [:abrasf_desif_city_id, :city_tax_code], unique: true,
-        name: :abrasf_desif_city_tax_codes_city_id_and_city_tax_code
     end
   end
 end

@@ -30,5 +30,23 @@ rake db:migrate
 After the migration, you need to run the following task to load the seeds:
 
 ```console
-rake abrasf:desif:db:seed
+rake abrasf-desif:db:seed
 ```
+
+There is a task to seed an default Tax Code for the city,
+to call it is necessary to inform the IBGE city code.
+
+```console
+rake abrasf-desif:city_tax_code[3550308]
+```
+
+You can also use this feature calling the following code:
+
+```ruby
+Abrasf::Desif::TaxCodeToCity.create city_id:
+```
+
+## TODO
+
+- validate uniqueness (tax_code, aliquot) in city tax code scoped by city and
+  date interval (since-expiry = date interval)
