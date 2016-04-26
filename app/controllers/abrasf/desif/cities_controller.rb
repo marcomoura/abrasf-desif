@@ -2,7 +2,7 @@
 
 module Abrasf
   module Desif
-    class CitiesController < ActionController::Base
+    class CitiesController < ApplicationController
       # GET /desif/cities
       def index
         @cities = Desif::City.all

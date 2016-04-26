@@ -28,6 +28,9 @@ pt:
           code: Código
           description: Descrição
           service_item: Subitem da lista de serviços
+          filename: anexo_6.csv
+          download:
+            csv: Download CSV
       cities:
         index:
           title: Tabela de Municípios do IBGE
@@ -39,13 +42,14 @@ pt:
           title: Tabela de Códigos de Tributação do Município
           city: Código Município
           city_tax_code: Código de tributação do município
-          tax_code: Código de tributação
+          tax_code: Código de tributação da DES-IF
           aliquot: Alíquota
           since: Início da vigência
           expiry: Fim da vigência
+          new: Novo Código de tributação do município
+        city_tax_code:
           edit: Editar
           destroy: Deletar
-          new: Novo Código de tributação do município
         create:
           created: City tax code was successfully created.
         update:

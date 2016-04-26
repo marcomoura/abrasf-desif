@@ -1,6 +1,9 @@
 <p id='notice'><%= notice %></p>
 
-<h1><%= t '.title'%></h1>
+<h3><%= t '.title'%></h3>
+
+<%= link_to t('.new'), new_city_tax_code_path, class: :add %>
+
 
 <table>
   <thead>
@@ -20,6 +23,3 @@
   </tbody>
 </table>
 
-<br>
-
-<%= link_to t('.new'), new_city_tax_code_path %>

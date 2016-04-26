@@ -2,8 +2,7 @@
 
 RSpec.describe 'abrasf/desif/tax_codes/_tax_code', type: :view do
   before do
-    tax_code = double id: 1234, description: 'hi',
-                      abrasf_desif_service_item_id: 171
+    tax_code = double id_mask: 1234, description: 'hi', service_item_id: 171
 
     render partial: 'abrasf/desif/tax_codes/tax_code',
            locals: { tax_code: tax_code }
