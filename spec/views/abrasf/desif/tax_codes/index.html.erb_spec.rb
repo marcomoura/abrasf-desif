@@ -7,7 +7,7 @@ RSpec.describe 'abrasf/desif/tax_codes/index', type: :view do
 
   before do
     assign :tax_codes, [tax_code]
-    stub_template "abrasf/desif/tax_codes/index/_tax_code.html.erb" => "<br/>"
+    stub_template 'abrasf/desif/tax_codes/index/_tax_code.html.erb' => nil
 
     render
   end

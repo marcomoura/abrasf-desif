@@ -3,22 +3,20 @@
 module Abrasf
   module Desif
     class TaxCodeDecorator < SimpleDelegator
-
       def self.wrap(collection)
         collection.map { |obj| new obj }
       end
 
       def service_item_id
-        sprintf '%04d', super
+        format '%04d', super
       end
 
       def id
-        sprintf '%09d', super
+        format '%09d', super
       end
 
       def id_mask
-        id.match(/^(\d{2})(\d{2})(\d{3})(\d{2})$/)
-        "#{$1}.#{$2}.#{$3}-#{$4}"
+        "#{id[0..1]}.#{id[2..3]}.#{id[4..6]}-#{id[7..8]}"
       end
 
       def to_csv

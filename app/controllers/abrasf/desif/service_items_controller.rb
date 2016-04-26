@@ -19,7 +19,6 @@ module Abrasf
         end
       end
 
-
       private
 
       def set_service_items
