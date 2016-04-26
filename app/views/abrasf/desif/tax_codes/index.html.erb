@@ -1,5 +1,6 @@
-<h2><%= t '.title' %>
+<h1><%= t '.title' %></h1>
 
+<%= link_to t('.download.csv'), abrasf_desif.tax_codes_path(format: :csv) %>
 <table>
   <thead>
     <tr>
@@ -10,6 +11,6 @@
   </thead>
 
   <tbody>
-    <%= render partial: @tax_codes %>
+    <%= render partial: 'tax_code', collection: @tax_codes %>
   </tbody>
 </table>

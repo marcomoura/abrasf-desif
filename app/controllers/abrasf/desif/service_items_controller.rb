@@ -4,11 +4,11 @@ require 'csv'
 
 module Abrasf
   module Desif
-    class ServiceItemsController < ActionController::Base
+    class ServiceItemsController < ApplicationController
+      before_action :set_service_items
+
       # GET /service_items
       def index
-        @service_items = ServiceItem.all
-
         respond_to do |format|
           format.html
           format.csv do
@@ -17,6 +17,13 @@ module Abrasf
                       disposition: 'attachment; filename=attachament_4.csv'
           end
         end
+      end
+
+
+      private
+
+      def set_service_items
+        @service_items = ServiceItem.all
       end
     end
   end

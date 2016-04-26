@@ -2,10 +2,25 @@
 
 module Abrasf
   module Desif
-    class TaxCodesController < ActionController::Base
+    class TaxCodesController < ApplicationController
+      before_action :set_tax_codes
+
       # GET /desif/tax_codes
       def index
-        @tax_codes = TaxCode.all
+        respond_to do |format|
+          format.html
+          format.csv do
+            filename = "attachment; filename=\"#{t '.filename'}\""
+            headers['Content-Disposition'] = filename
+            headers['Content-Type'] = Mime::CSV
+          end
+        end
+      end
+
+      private
+
+      def set_tax_codes
+        @tax_codes = TaxCodeDecorator.wrap TaxCode.all
       end
     end
   end

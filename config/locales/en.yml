@@ -25,6 +25,9 @@ en:
           code: Code
           description: Description
           service_item: Subitem Service Item
+          filename: attachament_6.csv
+          download:
+            csv: Download CSV
       cities:
         index:
           title: City Table

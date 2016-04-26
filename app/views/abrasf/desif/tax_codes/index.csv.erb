@@ -1,0 +1,3 @@
+<%- @tax_codes.each do |tax_code| -%>
+<%= CSV.generate_line(tax_code.to_csv).html_safe -%>
+<%- end -%>

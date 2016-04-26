@@ -4,6 +4,7 @@ module Abrasf
   module Desif
     class Engine < ::Rails::Engine
       isolate_namespace Abrasf::Desif
+      engine_name 'abrasf_desif'
 
       initializer :append_migrations do |app|
         unless app.root.to_s.match root.to_s
