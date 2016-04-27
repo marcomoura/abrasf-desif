@@ -12,7 +12,6 @@ module Abrasf
           format.csv do
             filename = "attachment; filename=\"#{t '.filename'}\""
             headers['Content-Disposition'] = filename
-            headers['Content-Type'] = Mime::CSV
           end
         end
       end

@@ -6,13 +6,20 @@ module Abrasf
       routes { Engine.routes }
 
       describe 'GET #index' do
-        before do
-          create :tax_code
-          get :index
+        before { create :tax_code }
+
+        context 'HTML format' do
+          before { get :index }
+
+          it 'assigns all tax_codes as @tax_codes' do
+            expect(assigns(:tax_codes)).to_not be_empty
+          end
         end
 
-        it 'assigns all tax_codes as @tax_codes' do
-          expect(assigns(:tax_codes)).to_not be_empty
+        context 'respond to CSV format' do
+          before { get :index, format: :csv }
+
+          it { expect(response.content_type).to eq 'text/csv' }
         end
       end
     end
