@@ -48,5 +48,8 @@ Abrasf::Desif::TaxCodeToCity.create city_id:
 
 ## TODO
 
-- validate uniqueness (tax_code, aliquot) in city tax code scoped by city and
-  date interval (since-expiry = date interval)
+- validate uniqueness (tax_code) in city tax code
+  scoped by city and date interval (since-expiry = date interval)
+
+- validate period valid in city tax code
+  expiry date should be greater than since date
