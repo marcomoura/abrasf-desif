@@ -9,7 +9,7 @@ RSpec.describe 'City Tax codes', type: :feature do
 
     let(:result) do
       'City IBGE Tax code City tax code Aliquot Since Expiry '\
-      '1200013 10200001 A1234 5.0 2016/04'\
+      '1200013 10200001 A1234 5.0 2016/' + format('%02d', Date.today.month.to_s)
     end
 
     it { expect(page).to have_content result }
