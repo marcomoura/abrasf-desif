@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    abrasf-desif (0.0.1)
+    abrasf-desif (1.0.0)
       rails (~> 4.2.6)
 
 GEM
