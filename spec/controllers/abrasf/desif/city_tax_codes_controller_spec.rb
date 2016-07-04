@@ -23,7 +23,7 @@ module Abrasf
 
       describe 'GET #show' do
         let(:city_tax_code) { CityTaxCode.create! valid_attributes }
-        before { get :show, id: city_tax_code.to_param }
+        before { get :show, params: { id: city_tax_code.to_param } }
 
         it 'assigns the requested city_tax_code as @city_tax_code' do
           expect(assigns(:city_tax_code)).to eq city_tax_code
@@ -32,14 +32,14 @@ module Abrasf
 
       describe 'GET #new' do
         it 'assigns a new city_tax_code as @city_tax_code' do
-          get :new, {}
+          get :new
           expect(assigns(:city_tax_code)).to be_a_new CityTaxCode
         end
       end
 
       describe 'GET #edit' do
         let(:city_tax_code) { CityTaxCode.create! valid_attributes }
-        before { get :edit, id: city_tax_code.to_param }
+        before { get :edit, params: { id: city_tax_code.to_param } }
 
         it 'assigns the requested city_tax_code as @city_tax_code' do
           expect(assigns(:city_tax_code)).to eq city_tax_code
@@ -49,24 +49,24 @@ module Abrasf
       describe 'POST #create' do
         context 'with valid params' do
           it 'creates a new CityTaxCode' do
-            expect { post :create, city_tax_code: valid_attributes }
+            expect { post :create, params: {city_tax_code: valid_attributes } }
               .to change(CityTaxCode, :count).by(1)
           end
 
           it 'assigns a newly created city_tax_code as @city_tax_code' do
-            post :create, city_tax_code: valid_attributes
+            post :create, params: { city_tax_code: valid_attributes }
             expect(assigns(:city_tax_code)).to be_a CityTaxCode
             expect(assigns(:city_tax_code)).to be_persisted
           end
 
           it 'redirects to the created city_tax_code' do
-            post :create, city_tax_code: valid_attributes
+            post :create, params: { city_tax_code: valid_attributes }
             expect(response).to redirect_to(CityTaxCode.last)
           end
         end
 
         context 'with invalid params' do
-          before { post :create, city_tax_code: invalid_attributes }
+          before { post :create, params: { city_tax_code: invalid_attributes } }
 
           it 'assigns a newly but unsaved city_tax_code as @city_tax_code' do
             expect(assigns(:city_tax_code)).to be_a_new CityTaxCode
@@ -80,7 +80,9 @@ module Abrasf
 
       describe 'PUT #update' do
         let(:city_tax_code) { CityTaxCode.create! valid_attributes }
-        before { put :update, id: city_tax_code.to_param, city_tax_code: attr }
+        before do
+          put :update, params: { id: city_tax_code.to_param, city_tax_code: attr }
+        end
 
         context 'with valid params' do
           let(:attr) { { city_tax_code: code } }
@@ -115,13 +117,13 @@ module Abrasf
       describe 'DELETE #destroy' do
         it 'destroys the requested city_tax_code' do
           city_tax_code = CityTaxCode.create! valid_attributes
-          expect { delete :destroy, id: city_tax_code.to_param }
+          expect { delete :destroy, params: { id: city_tax_code.to_param } }
             .to change(CityTaxCode, :count).by(-1)
         end
 
         it 'redirects to the city_tax_codes list' do
           city_tax_code = CityTaxCode.create! valid_attributes
-          delete :destroy, id: city_tax_code.to_param
+          delete :destroy, params: { id: city_tax_code.to_param }
           expect(response).to redirect_to(city_tax_codes_url)
         end
       end

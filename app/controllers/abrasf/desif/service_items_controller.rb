@@ -12,8 +12,9 @@ module Abrasf
         respond_to do |format|
           format.html
           format.csv do
-            send_data @service_items.to_csv,
-                      type: Mime::CSV,
+            # send_data @service_items.to_csv,
+            send_data @service_items,
+                      type: Mime[:csv],
                       disposition: 'attachment; filename=attachament_4.csv'
           end
         end
