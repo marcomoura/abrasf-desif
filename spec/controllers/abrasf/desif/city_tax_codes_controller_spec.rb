@@ -9,7 +9,6 @@ module Abrasf
         { abrasf_desif_tax_code_id: create(:tax_code).id, since: Date.today,
           abrasf_desif_city_id: create(:city).id, city_tax_code: 'A23456' }
       end
-
       let(:invalid_attributes) { valid_attributes.merge city_tax_code: nil }
 
       describe 'GET #index' do
@@ -93,13 +92,8 @@ module Abrasf
             expect(city_tax_code.reload.city_tax_code).to be_eql code
           end
 
-          it 'assigns the requested city_tax_code as @city_tax_code' do
-            expect(assigns(:city_tax_code)).to eq city_tax_code
-          end
-
-          it 'redirects to the city_tax_code' do
-            expect(response).to redirect_to city_tax_code
-          end
+          it { expect(assigns(:city_tax_code)).to eq city_tax_code }
+          it { expect(response).to redirect_to city_tax_code }
         end
 
         context 'with invalid params' do
