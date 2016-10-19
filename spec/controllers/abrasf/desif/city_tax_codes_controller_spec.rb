@@ -49,7 +49,7 @@ module Abrasf
       describe 'POST #create' do
         context 'with valid params' do
           it 'creates a new CityTaxCode' do
-            expect { post :create, params: {city_tax_code: valid_attributes } }
+            expect { post :create, params: { city_tax_code: valid_attributes } }
               .to change(CityTaxCode, :count).by(1)
           end
 
@@ -81,7 +81,8 @@ module Abrasf
       describe 'PUT #update' do
         let(:city_tax_code) { CityTaxCode.create! valid_attributes }
         before do
-          put :update, params: { id: city_tax_code.to_param, city_tax_code: attr }
+          put :update, params: { id: city_tax_code.to_param,
+                                 city_tax_code: attr }
         end
 
         context 'with valid params' do
