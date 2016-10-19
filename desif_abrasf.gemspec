@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
                 'Rakefile', 'README.md']
   s.test_files = Dir['spec/**/*']
 
-  s.add_dependency 'rails', '~> 5'
+  s.add_dependency 'rails'
 
   s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'rspec-rails'
